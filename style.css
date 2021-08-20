@@ -1,0 +1,77 @@
+
+  .navbar .flex-1 {
+    flex: 1;
+    flex-basis: 100%;
+}
+
+.head{
+    margin-bottom: 40px;
+}
+
+div input{
+    width: 50vw;
+    height: 45px;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(250, 34, 34);
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(248, 248, 248, 0.966);
+}
+
+.search-city{
+    margin-bottom: 50px;
+}
+
+.info{
+
+
+    width: 50vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    text-align: center;
+    font-size: 25px;
+  
+   
+}
+.info div{
+    padding-bottom: 20px;
+    color: rgba(8, 8, 8, 0.651);
+}
+
+.footer{
+    position: absolute;
+    right: 0;
+    bottom:0;
+    margin: 10px;
+}
+
+.about span {
+ font-weight:bold }
+
+ .about{
+     margin-top: 12vw;
+     width: 50vw;
+     margin-left: 25vw;
+     margin-right: 25vw;
+     font-size: 2vw;
+
+ }
+ @media (max-width:500px) {
+     .about{
+         font-size:5vw;
+     }
+ }
+.social{
+    text-decoration: none;
+ color: rgb(0, 140, 255);
+  outline: none;
+  
+}
+
+.social:hover{
+    text-decoration: none;
+ color: rgb(51, 173, 255);
+  outline: none;
+}
